@@ -6,18 +6,6 @@
 
 
 //----------------------------------вариант 1-----------------------------------------//
-Console.Write("Введите число: ");
-int N = Convert.ToInt32(Console.ReadLine());
-Console.Write(N + " -> ");
-for (int i = 1; i <= N; i++)
-{
-    Console.Write($"{(Math.Pow(i, 3) + ", ")}");
-}
-
-
-
-//----------------------------------вариант 2------------------------------------------//
-/*
 void Cube(int Num)
 {
     for (int i = 1; i <= Num; i++)
@@ -25,10 +13,23 @@ void Cube(int Num)
         Console.Write($"{(Math.Pow(i, 3) + ", ")}");
     }
 }
+
 Console.Write("Введите число: ");
 int N = Convert.ToInt32(Console.ReadLine());
 Console.Write(N + " -> ");
 Cube(N);
+
+
+
+//----------------------------------вариант 2------------------------------------------//
+/*
+Console.Write("Введите число: ");
+int N = Convert.ToInt32(Console.ReadLine());
+Console.Write(N + " -> ");
+for (int i = 1; i <= N; i++)
+{
+    Console.Write($"{(Math.Pow(i, 3) + ", ")}");
+}
 */
 
 
