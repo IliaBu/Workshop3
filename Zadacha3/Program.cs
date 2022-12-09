@@ -6,18 +6,23 @@
 
 
 //----------------------------------вариант 1-----------------------------------------//
-void Cube(int Num)
+
+
+void PrintCubic(int Num)
 {
-    for (int i = 1; i <= Num; i++)
+    int[] array = new int[Num];
+    Console.Write("[");
+    for (int i = 1; i <= array.Length; i++)
     {
         Console.Write($"{(Math.Pow(i, 3) + ", ")}");
     }
+    Console.Write("]");
 }
 
 Console.Write("Введите число: ");
 int N = Convert.ToInt32(Console.ReadLine());
 Console.Write(N + " -> ");
-Cube(N);
+PrintCubic(N);
 
 
 
