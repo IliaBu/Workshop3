@@ -9,7 +9,6 @@
 
 bool isPalindrome(string number1)
 {
-    //string number1 = num.ToString();
     for (int i = 0; i < number1.Length / 2; i++)
     {
         if (number1[i] != number1[number1.Length - 1 - i])
